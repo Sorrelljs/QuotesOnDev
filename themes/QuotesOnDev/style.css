@@ -235,14 +235,25 @@ textarea {
   line-height: 1.5; }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   clear: both; }
+
+.body {
+  background-color: #222222; }
 
 /* Copy */
 p {
   margin-bottom: 1.5rem; }
 
-dfn, cite, em, i {
+dfn,
+cite,
+em,
+i {
   font-style: italic; }
 
 blockquote {
@@ -254,22 +265,27 @@ address {
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: .9375rem;
+  font-size: 0.9375rem;
   line-height: 1.6;
   margin-bottom: 1.6rem;
   max-width: 100%;
   overflow: auto;
   padding: 1.6rem; }
 
-code, kbd, tt, var {
+code,
+kbd,
+tt,
+var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: .9375rem; }
+  font-size: 0.9375rem; }
 
-abbr, acronym {
+abbr,
+acronym {
   border-bottom: 1px dotted #666;
   cursor: help; }
 
-mark, ins {
+mark,
+ins {
   background: #fff9c0;
   text-decoration: none; }
 
@@ -289,19 +305,20 @@ html {
 *:after {
   /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
   -webkit-box-sizing: inherit;
-          box-sizing: inherit; }
+          box-sizing: inherit;
+  text-decoration: none !important; }
 
 body {
-  background: #fff;
+  background: #222222;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote,
 q {
-  quotes: '' ''; }
+  quotes: "" ""; }
   blockquote:before, blockquote:after,
   q:before,
   q:after {
-    content: ''; }
+    content: ""; }
 
 hr {
   background-color: #ccc;
@@ -309,12 +326,8 @@ hr {
   height: 1px;
   margin-bottom: 1.5rem; }
 
-ul,
 ol {
   margin: 0 0 1.5rem 3rem; }
-
-ul {
-  list-style: disc; }
 
 ol {
   list-style: decimal; }
@@ -339,6 +352,10 @@ img {
 table {
   margin: 0 0 1.5rem;
   width: 100%; }
+
+ul {
+  text-decoration: none;
+  list-style: none; }
 
 /*--------------------------------------------------------------
 # Forms
@@ -571,6 +588,19 @@ a {
   clear: both;
   margin: 0 0 1.5rem; }
 
+.entry-content {
+  color: #fff;
+  font-family: Exo Web, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 8px; }
+
+.entry-about-title {
+  color: #fff;
+  font-family: Exo Web, sans-serif;
+  font-size: 2em;
+  padding: 10px; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -593,3 +623,43 @@ object {
 --------------------------------------------------------------*/
 /* All Archives Page */
 /* Submit a Quote Page */
+.logo-image {
+  margin-top: 20px; }
+
+.site-footer {
+  list-style: none; }
+
+.site-info {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 4.5rem 0 3rem;
+  -ms-flex-line-pack: start;
+      align-content: flex-start; }
+
+.ul-class ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
+  .ul-class ul li {
+    padding-right: 9px;
+    border-right: 1px solid #fff;
+    margin: 0px;
+    padding-left: 9px;
+    line-height: 1; }
+    .ul-class ul li:last-child {
+      border: none; }

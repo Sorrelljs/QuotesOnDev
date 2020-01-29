@@ -1,0 +1,32 @@
+.site-footer {
+  list-style: none;
+}
+
+.site-info {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 4.5rem 0 3rem;
+  align-content: flex-start;
+}
+
+.ul-class {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    li {
+      padding-right: 9px;
+      border-right: 1px solid #fff;
+      margin: 0px;
+      padding-left: 9px;
+      line-height: 1;
+
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+}
