@@ -663,3 +663,44 @@ object {
     line-height: 1; }
     .ul-class ul li:last-child {
       border: none; }
+
+.form_input {
+  border: 1px solid #00cc00;
+  background: #222222; }
+
+input#author-box {
+  border: 1px solid #00cc00;
+  background: #222222;
+  width: 80%; }
+
+input#quote-box {
+  border: 1px solid #00cc00;
+  background: #222222;
+  width: 80%; }
+
+input#url-box {
+  border: 1px solid #00cc00;
+  background: #222222;
+  background: #222222;
+  width: 80%; }
+
+input#message-box {
+  width: 80%; }
+
+form.wpcf7-form {
+  margin: 15px; }
+
+textarea#message-box {
+  height: 100px; }
+
+form.wpcf7-form p {
+  color: white; }
+
+form.wpcf7-form button {
+  border: 1px solid #00cc00;
+  background: #222222;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  color: #00cc00;
+  width: 150px; }
