@@ -47,3 +47,29 @@ form.wpcf7-form {
     width: 150px;
   }
 }
+
+.not-logged-in {
+  color: white;
+  margin: 10px;
+  font-family: exo, sans-serif;
+}
+
+.login-link {
+  border: none;
+  border-color: none;
+  border-radius: none;
+  box-shadow: none;
+  color: #00cc00;
+  font-size: 0.75rem;
+  line-height: 1;
+  padding: none;
+  text-shadow: none;
+  background: none;
+  font-size: 16px;
+  margin: -5px;
+  font-family: exo, sans-serif;
+}
+
+.entry-about-title {
+  font-family: exo, sans-serif;
+}

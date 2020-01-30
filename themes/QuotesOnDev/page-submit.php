@@ -16,19 +16,17 @@ get_header(); ?>
 
             <?php endwhile; // End of the loop. ?>
             
-            <?php if (is_user_logged_in()) {
+            <?php if (is_user_logged_in()) : ?>
 
-                echo do_shortcode('[contact-form-7 id="228" title="Submit Quote"]'); 
+                <?php echo do_shortcode('[contact-form-7 id="228" title="Submit Quote"]'); ?>
 
-            }
+            <?php else : ?>
 
-            else {
+                <div class = "not-logged-in">Sorry, You must be logged in to submit a quote!</div>
 
-                
+                <button class = "login-link"> Click here to login.</button>
 
-            }
-
-            ?>
+            <?php endif; ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

@@ -20,7 +20,9 @@
 				<ul class = "menu-footer">
 
 					<a class = "copyright" href="<?php echo esc_url( 'https://wordpress.org/' );
-					 ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
+					 ?>">
+					 
+					 <span class = "color-change"> Brought to you by </span>  RED Academy</a>
 					 </ul>
 				</div><!-- .site-info -->
 			

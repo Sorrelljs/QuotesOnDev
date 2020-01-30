@@ -26,7 +26,15 @@
 
       &:last-child {
         border: none;
+
+        a {
+          color: #00cc00;
+        }
       }
     }
   }
+}
+
+.color-change {
+  color: white;
 }
