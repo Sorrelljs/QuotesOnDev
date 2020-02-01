@@ -762,3 +762,49 @@ form.wpcf7-form button {
 
 .entry-about-title {
   font-family: exo, sans-serif; }
+
+.archive-title-style {
+  color: #fff;
+  font-family: Exo, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5; }
+
+.tags-quote {
+  color: #0c0;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: exo, sans-serif; }
+
+.author-quote {
+  color: #0c0;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: exo, sans-serif;
+  text-decoration: none;
+  padding: 6px; }
+
+.site-main li {
+  list-style-type: none; }
+
+.archive-page-title {
+  color: #fff;
+  font-family: Exo, sans-serif;
+  font-size: 2rem;
+  line-height: 1.5; }
+
+.author-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  line-height: 2;
+  margin: 5px; }
+
+.list-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  line-height: 2; }
