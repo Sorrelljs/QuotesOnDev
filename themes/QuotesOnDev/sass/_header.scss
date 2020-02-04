@@ -1,5 +1,14 @@
 .logo-image {
   margin-top: 49px;
+
+  @media (min-width: 620px) {
+    width: 500px;
+
+    @media (min-width: 1080px) {
+      margin: 0 auto;
+      width: 700px;
+    }
+  }
 }
 
 img {
