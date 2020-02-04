@@ -23,9 +23,9 @@
 			<header id="masthead" class="site-header" role="banner">
 				<div class="site-branding">
 					<h1 class="site-title screen-reader-text"></h1>
-					
+					<a href = "https://quotes.academy.red/" rel = "home">
 					<img class = "logo-image" src = "<?php echo get_template_directory_uri() . '/assets/images/qod-logo.svg';?>" />
-
+					</a>
 
 				</div>
 
