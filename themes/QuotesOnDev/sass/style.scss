@@ -62,3 +62,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "footer";
 @import "page-submit.scss";
 @import "archive";
+@import "front-page";
+
+p {
+  font-family: exo, sans-serif;
+}

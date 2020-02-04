@@ -400,9 +400,9 @@ input[type="submit"] {
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.8);
-  font-size: .75rem;
+  font-size: 0.75rem;
   line-height: 1;
-  padding: .6rem 1rem .4rem;
+  padding: 0.6rem 1rem 0.4rem;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
   button:hover,
   input[type="button"]:hover,
@@ -653,7 +653,10 @@ object {
 /* All Archives Page */
 /* Submit a Quote Page */
 .logo-image {
-  margin-top: 20px; }
+  margin-top: 49px; }
+
+img {
+  max-width: 80%; }
 
 .site-footer {
   list-style: none; }
@@ -799,7 +802,10 @@ form.wpcf7-form button {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   line-height: 2;
-  margin: 5px; }
+  margin: 5px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
 
 .list-wrap {
   display: -webkit-box;
@@ -807,4 +813,34 @@ form.wpcf7-form button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  line-height: 2; }
+  line-height: 2;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
+
+#new-quote-button {
+  background-color: #222;
+  border: 2px solid #0c0;
+  border-radius: 3px;
+  color: #0c0;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0.75rem 2.25rem;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none; }
+
+.quote-text {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-family: exo, sans-serif; }
+
+.author-name-content {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: white; }
+
+p {
+  font-family: exo, sans-serif; }
