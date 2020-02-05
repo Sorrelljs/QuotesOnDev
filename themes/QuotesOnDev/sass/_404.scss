@@ -1,0 +1,76 @@
+//*** page style for 404 ***//
+
+.hfeed-site {
+  margin: 10px;
+}
+
+.page-title123 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  color: #fff;
+  font-family: Exo, sans-serif;
+  line-height: 1.5;
+}
+
+.page-content123 {
+  color: #fff;
+  font-family: Exo, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search-submit {
+  border: 0;
+  float: left;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.clearfix {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.search-form label {
+  float: left;
+  min-width: 200px;
+}
+label {
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.search-form input[type="search"] {
+  width: 240px;
+}
+
+input.search-field {
+  background: none;
+  border: 2px solid #00cc00;
+  border-radius: 3px;
+}
+
+.search-submit123 {
+  border: none;
+  border-color: none;
+  border-radius: none;
+  background: none;
+  box-shadow: none;
+  color: #222;
+  font-size: none;
+  line-height: none;
+  padding: none;
+  text-shadow: none;
+}
+
+.page-content {
+  color: white;
+}

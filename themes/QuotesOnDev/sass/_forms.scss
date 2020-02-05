@@ -41,12 +41,14 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-  color: #666;
+  color: white;
   border: 1px solid #ccc;
   border-radius: 3px;
+  font-family: exo, sans-serif;
 
   &:focus {
-    color: #111;
+    color: white;
+    font-family: exo, sans-serif;
   }
 }
 
@@ -61,4 +63,8 @@ input[type="search"] {
 textarea {
   padding-left: 3px;
   width: 100%;
+}
+
+.page-content {
+  color: white;
 }

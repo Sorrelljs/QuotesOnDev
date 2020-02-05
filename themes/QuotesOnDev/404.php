@@ -3,9 +3,10 @@
  * The template for displaying 404 pages (not found).
  *
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
- *
+ * 
  * @package QOD_Starter_Theme
  */
+
 
 get_header(); ?>
 
@@ -14,10 +15,10 @@ get_header(); ?>
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-					<h1 class="page-title"><?php echo esc_html( 'Oops! That page can&rsquo;t be found.' ); ?></h1>
+					<h1 class="page-title123"><?php echo esc_html( 'Oops!' ); ?></h1>
 				</header><!-- .page-header -->
 
-				<div class="page-content">
+				<div class="page-content123">
 					<p><?php echo esc_html( 'It looks like nothing was found at this location. Maybe try a search?' ); ?></p>
 
 					<?php get_search_form(); ?>

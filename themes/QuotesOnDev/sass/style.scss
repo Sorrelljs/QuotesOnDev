@@ -63,6 +63,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "page-submit.scss";
 @import "archive";
 @import "front-page";
+@import "./404";
+@import "./search";
 
 p {
   font-family: exo, sans-serif;

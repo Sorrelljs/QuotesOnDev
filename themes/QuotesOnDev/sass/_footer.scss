@@ -12,6 +12,7 @@
 
   @media (min-width: 620px) {
     flex-direction: row;
+    justify-content: flex-start;
     margin-block-start: none;
 
     @media (min-width: 1080px) {
@@ -66,5 +67,14 @@
 @media (min-width: 1080px) {
   .site-content {
     margin: 4.5rem 175px 1.5rem;
+  }
+}
+
+@media (min-width: 620px) {
+  .menu-footer {
+    padding: 0 9px;
+    margin: 13px 5px;
+    border-left: 1px solid #fff;
+    padding: -3px;
   }
 }
