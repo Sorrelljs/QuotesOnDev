@@ -14,11 +14,14 @@ get_header(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-			<?php the_post_navigation(); ?>
 
 		<?php endwhile; // End of the loop. ?>
+		<section class = "button-container">
+<button class = "button-click" type="button" id="new-quote-button">Show Me Another</button>
+</section>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php get_footer(); ?>
+

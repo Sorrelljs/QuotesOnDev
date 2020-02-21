@@ -14,3 +14,16 @@
 img {
   max-width: 80%;
 }
+
+@media screen and (min-width: 1080px) {
+  .hide {
+    display: inline-block;
+    position: absolute;
+    color: #00cc00;
+    font-size: 127px;
+    left: 100px;
+  }
+  .right {
+    right: -836px;
+  }
+}

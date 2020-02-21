@@ -66,6 +66,28 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "./404";
 @import "./search";
 
+// **** edits*** //
 p {
   font-family: exo, sans-serif;
+}
+
+//**** page.php****//
+
+.get-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.site-main li {
+  padding: 5px;
+}
+
+.quote-text {
+  font-weight: 200;
 }

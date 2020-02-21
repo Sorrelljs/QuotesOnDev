@@ -670,6 +670,16 @@ object {
 img {
   max-width: 80%; }
 
+@media screen and (min-width: 1080px) {
+  .hide {
+    display: inline-block;
+    position: absolute;
+    color: #00cc00;
+    font-size: 127px;
+    left: 100px; }
+  .right {
+    right: -836px; } }
+
 .site-footer {
   list-style: none; }
 
@@ -896,11 +906,18 @@ form.wpcf7-form button {
 .author-name-content {
   font-size: 1.25rem;
   font-weight: 400;
-  color: white; }
+  font-family: exo, sans-serif;
+  color: white;
+  font-family: "exo", sans-serif; }
 
 @media (min-width: 1080px) {
   .site-content {
-    margin: 4.5rem 175px 1.5rem; } }
+    margin: 4.5rem 175px 1.5rem; }
+  .author-name-content:before {
+    content: "- "; } }
+
+.author-name-content:after {
+  content: " , "; }
 
 .hfeed-site {
   margin: 10px; }
@@ -989,3 +1006,26 @@ nav.number-pagination {
 
 p {
   font-family: exo, sans-serif; }
+
+.get-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
+
+.site-main li {
+  padding: 5px; }
+
+.quote-text {
+  font-weight: 200; }

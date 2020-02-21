@@ -29,11 +29,49 @@
 .author-name-content {
   font-size: 1.25rem;
   font-weight: 400;
+  font-family: exo, sans-serif;
   color: white;
+  font-family: "exo", sans-serif;
 }
 
 @media (min-width: 1080px) {
   .site-content {
     margin: 4.5rem 175px 1.5rem;
   }
+
+  .author-name-content:before {
+    content: "- ";
+  }
 }
+
+.author-name-content:after {
+  content: " , ";
+}
+
+//quotes
+
+// @media (min-width: 1080px) {
+//   .site-content:after,
+//   .site-content:before {
+//     color: #0c0;
+//     font-family: FontAwesome;
+//     font-size: 125px;
+//     line-height: 125px;
+//     position: absolute;
+//     top: 0;
+//   }
+// }
+
+// @media (min-width: 1080px) {
+//   .site-content:before {
+//     content: "\f10d";
+//     left: -175px;
+//   }
+// }
+
+// @media (min-width: 1080px) {
+//   .site-content:after {
+//     content: "\f10e";
+//     right: -175px;
+//   }
+// }
