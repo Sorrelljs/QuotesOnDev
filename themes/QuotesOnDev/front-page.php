@@ -14,12 +14,22 @@
 
 <!-- DIVS CLASS -->
 
-<div class = "entry-content">
+    <div class = "entry-content">
 
-</div>
-
-<div class = "entry-meta">
-<h3 class = "author-name-content"></h3>
+    </div>
+<?php
+				
+    $args = array( 'orderby' => 'rand', 'posts_per_page' => '1' );
+    $posts = get_posts( $args ); 
+			if ( have_posts() ) : the_post();?>
+    <div class = "entry-meta">
+<?php the_content()?>
+    <h3 class = "author-name-content">
+<?php the_title();?>
+    </h3>
+    <?php
+    endif;
+		wp_reset_postdata();?>
 
 </div>
 <section class = "button-container">

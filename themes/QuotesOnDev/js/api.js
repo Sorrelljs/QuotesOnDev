@@ -17,8 +17,10 @@
             // alert("Success! Comments are closed for this post.");
             const author = data[0].title.rendered
             const quote = data[0].content.rendered
-            console.log(data)
+            const link = data[0].slug;
+            console.log(link)
             // ***** appending data ***///
+            history.pushState(null, null, link);
             $(".entry-content").html(quote);
             $(".entry-content p").addClass('quote-text');
             $(".author-name-content").text(author);
