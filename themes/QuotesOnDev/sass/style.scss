@@ -91,3 +91,9 @@ ul {
 .quote-text {
   font-weight: 200;
 }
+
+@media screen and (max-width: 480px) {
+  .fa {
+    display: none;
+  }
+}
